@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggggg">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="For Admission to B.E/B.Tech Courses and M.E./ MBA/ MCA Courses for the Academic year 2017-18 and for getting application forms,\nplease contact:\n\nThe Principal\nValliammai Engineering College\nSRM Nagar,Kattankulathur - 603 203,\nKancheepuram District,\nTamil Nadu, India.\n\nPHONE   : 044-27456703\nMOBILE  : 9940036042, 9940036043\nFAX : 044 - 27451504."
+        android:id="@+id/textView"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>

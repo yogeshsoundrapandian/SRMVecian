@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggggg">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="VALLIAMMAI ENGINEERING COLLEGE\n\nSRM Nagar, Kattankulathur - 603 203,\nKancheepuram District,\nTamil Nadu, India.\n\nPHONE : 044 - 27454784 / 726, 27451498\nFAX : 044 - 27451504.\n\nEMAIL : srmvec@valliammai.co.in,  srm_vecin@yahoo.com\n\nPrincipal	Office:	044 - 27456703, 27454784\nManager	Office:	044 - 27456705, 27454784"
+        android:id="@+id/textView"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>

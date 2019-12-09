@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggggg">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="VALLIAMMAI SOCIETY\n\nNo.3, Veerasamy Street,\nWest Mambalam,\nChennai - 600 033,
+Tamil Nadu, India.
+\nPHONE : 044 - 24742836, 24747231, 24893688\nFAX : 044 - 27451504."
+        android:id="@+id/textView"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>

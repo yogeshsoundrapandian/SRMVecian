@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bggggg">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="700dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DEPARTMENT OF PLACEMENT and CAREER GUIDANCE
+\n\n
+The Dept of Placement and Career Guidance works with much gusto in seeking and sequencing campus interviews for the students. The department caters to hone the students’ communication and interview skills. The department has adroit staff members that have good affinity with the students.
+\n\n
+Each campus interview creates a ripple effect on the growth of placement.
+\n\n
+It is to be mentioned that it is a unique system of SRM Group, a training division functions separately which concentrates on training the students according to the demand of corporates, which is not included in the regular syllabus. Students are prepared and trained through out the year by the training department. Students also undergo special training before each company comes in for recruitment.
+\n\n
+VISION
+\n\n
+To become the benchmark institution in Placement, Entrepreneur Development and developing the students for Higher Education by constantly monitoring the dynamic changes in the requirements of our customers' and accordingly address the needs of the students by training and updating them.
+\n\n
+OBJECTIVES
+\n
+• Creating awareness among the students on the requirements of Industries.
+• Preparing the students to suit the demand of the Industries.
+• Imparting Soft Skills Training.
+• Imparting Foreign Language Training.
+• Value addition courses. "
+                android:id="@+id/textView6"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

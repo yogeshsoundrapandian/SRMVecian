@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggggg">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DEPARTMENT OF PLACEMENT and CAREER GUIDANCE
+\n\n
+Mrs. J. Monica Paul\n
+Head Placement,\n
+Valliammai Engineering College,\n
+SRM Nagar,  Kattankulathur - 603 203,\n
+Kancheepuram District,\n
+Tamil Nadu, India.\n
+\n\nMOBILE : +91 - 91766 73123\nTEL : 044 - 2745 6706\nFAX : 044 - 2745 1504.\nEMAIL  : placement@valliammai.co.in"
+        android:id="@+id/textView7"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15sp" />
+</LinearLayout>

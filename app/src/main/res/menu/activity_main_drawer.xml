@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Home">
+            <menu>
+                <item
+                    android:id="@+id/h1"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="About VEC"/>
+                <item
+                    android:id="@+id/h2"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Facilities" />
+                <item
+                    android:id="@+id/h3"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Contact us" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Placement">
+        <menu>
+            <item
+                android:id="@+id/p1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About placement Cell" />
+            <item
+                android:id="@+id/p2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Placements Records" />
+        </menu>
+    </item>
+
+    <item android:title="Anna university">
+        <menu>
+            <item
+                android:id="@+id/a1"
+                android:icon="@drawable/web"
+                android:title="AU website" />
+        </menu>
+    </item>
+
+    <item android:title="About Developer">
+        <menu>
+            <item
+                android:id="@+id/abt"
+                android:icon="@drawable/web"
+                android:title="Go to Developer page" />
+        </menu>
+    </item>
+
+    <item android:title="Developed by: Yogesh S - B.E CSE"/>
+
+</menu>

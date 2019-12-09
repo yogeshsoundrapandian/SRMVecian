@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/bggggg">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView9" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="The elgibilty criteria for admission into the B.E/B.Tech Courses and M.E/MBA/MCA Courses are,
+\n\n
+B.E/B.Tech
+\n\n
+Candidates are selected on the basis of their performance in the HSC (+2) examination conducted by the state and through counselling (TNEA) conducted by Anna univeristy Chennai, selected candidates are allotted to various colleges for admission. Candidates may also appear directly for admission to the College under Management Quota. Admission forms may be obtained from the college office.
+\n
+Eligibility : + 2 or equivalent, as per norms and guidelines of the Government of Tamil Nadu/Anna University and AICTE for UG courses.
+\n\n
+M.E / MBA /MCA
+\n\n
+Candidates for the admission to the first semester of the Master’s Degree Programme shall be required to have passed an appropriate U.G degree examination of Anna University or any other examination of any University or authority accepted by the Syndicate of Anna University as equivalent thereto.
+\n
+Candidates are selected on the basis of their performance in the common entrance examination (TANCET) conducted by the state and selected candidates are allotted to various colleges for admission. Details regarding the entrance examination are published in the newspapers well in advance every year. Candidates may also appear directly for admission to the College under Management Quota. Appearing for entrance examination for these seats is a must and this entrance examination is counducted by the college on its campus. Admission forms may be obtained from the Admission office.
+\n\n
+Eligibility : As per norms and guidelines of the Government of Tamil Nadu/Anna University and AICTE for PG courses."
+                android:textSize="14sp"
+                android:id="@+id/textView11"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

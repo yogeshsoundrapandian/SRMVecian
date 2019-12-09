@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/bggggg">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:id="@+id/imageView7"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lib" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="500dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Overview:\n\nVEC Library is a paradise for those who have a passion for reading Books and enthusiasm for widening their knowledge base in depth and extent. It has a fully equipped spacious library in an area of 2700 Sq.m is spread over 2 storeys and is housed in the New Block. The college has also subscribed for 315 journals and magazine periodicals including IEEE online journal, to give an exposure to our students to the latest technology. The college has a very good separate reference section, two reading halls, a reprographic section and a CD section to cater to the needs of the students and faculty.\n\n   The Strength of Library and Services provided in the Library include:\n   • Fully computerized working Systems. • 10,398 Titles and 34,777 Volumes (availability exceeds AICTE Guidelines). • 315 Indian/ Foreign Journals / Magazines / Online Journals from IEEE and ASME.\n\n   The college is an institutional member of Anna University Library and also a corporate member of IIT Library with a view to provide assistance to the faculty and students to acquire more knowledge. "
+                android:id="@+id/textView2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:textSize="14sp"
+                android:layout_marginTop="05dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dept_array">
+        <item>Question bank (select dept)</item>
+        <item>BE-Civil</item>
+        <item>BE-CSE</item>
+        <item>BE-ECE</item>
+        <item>BE-EEE</item>
+        <item>BE-EIE</item>
+        <item>BE-Mech</item>
+        <item>BTECH-IT</item>
+        <item>ME-Structural engg</item>
+        <item>ME-CSE</item>
+        <item>ME-Comm systems</item>
+        <item>ME-Power systems</item>
+        <item>ME-CI</item>
+        <item>ME-CAD/CAM</item>
+        <item>ME-MBA</item>
+        <item>ME-MCA</item>
+    </string-array>
+    <string-array name="format_array">
+        <item>Select Format</item>
+        <item>FORMAT-A</item>
+        <item>FORMAT-B</item>
+        <item>FORMAT-C</item>
+        <item>IV FORM</item>
+    </string-array>
+</resources>

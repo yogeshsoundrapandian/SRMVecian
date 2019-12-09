@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SRM VECian</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aboutplacement">About Placement</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_facility">Facility</string>
+    <string name="title_activity_contactus">Contact us</string>
+    <string name="title_activity_course">Course</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2853157614422527/2154134295</string>
+    <string name="inter_ad_unit_id">ca-app-pub-2853157614422527/8763914296</string>
+</resources>

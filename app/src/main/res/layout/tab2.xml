@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/bggggg">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView" >
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="180dp"
+                        android:id="@+id/imageView8"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/bh" />
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="180dp"
+                        android:id="@+id/imageView"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/gh" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="458dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Overview:\n\nWe provide good hostel facility and hospitality with healthy and hygienic food for our hostel students. The calm and beautiful environment is conducive for studies, suitable for walkers to have a pleasant walk on the well laid pavements under the natural avenues and lawns.\n\nThere are two separate hostels for boys and girls students accommodating about 1200 students. All the hostels have necessary infrastructure and modern kitchen. The inmates are provided with a cot, a chair and a table. There is a cooperative store available in the hostel, to serve the day-to-day needs of the inmates. Hostel admission form is available in the hostel office for sale on payment.\n\nFacilities in the Hostel \n• Wi-Fi Internet Connection\n• T.V Hall\n • Co-operative Stores\n• CCTV Surveillance Camera\n• Gymnasium"
+                android:id="@+id/textView3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:textSize="14sp"
+                android:layout_marginTop="05dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
